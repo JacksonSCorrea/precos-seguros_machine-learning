@@ -6,7 +6,7 @@ As ações utilizadas para a tentativa de otimização do modleo foram:
 - Criação de nova variável com o intuito de penalizar ou gratificar algumas instâncias, tornando mais evidente a discrepância de valores do seguro entre elas.
 - Avaliação e remoção de outliers da variável target.
 
-Ao fim do código é implemento um script, baseado no modelo de partida, para a previsão de valores de novos seguros.
+Ao fim do código é implementado um script, baseado no modelo de partida, para a previsão de valores de novos seguros.
 Um dataframe resumo é exibido, mostrando o R² e o RMSE de cada modelo trabalhado no projeto.
 
 Enjoy!
