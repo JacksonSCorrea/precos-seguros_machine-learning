@@ -1,12 +1,19 @@
-Este é um projeto introdutório ao Aprendizado de Máquina e à Regressão Linear.
-O intuito foi replicar um exemplo existente na plataforma Kaggle, porém, implementando algumas tentativas de elevar o Coeficiente de Determinação (R²).
-É possível observar no quadro resumo que consta no notebook que as tentativas não foram bem sucedidas, sendo o modelo baseline o de melhor desempenho em relação ao R².
-As ações utilizadas para a tentativa de otimização do modelo foram:
-- Estratificação dos dados de treinamento
-- Criação de nova variável com o intuito de penalizar ou gratificar algumas instâncias, tornando mais evidente a discrepância de valores do seguro entre elas.
-- Avaliação e remoção de outliers da variável target.
+Este é um projeto de Ciência de Dados que tem como objetivo principal desenvolver um modelo de máquina preditiva de valores de seguros, dadas algumas informações sobre o indivíduo.
 
-Ao fim do código é implementado um script, baseado no modelo de partida, para a previsão de valores de novos seguros.
-Um dataframe resumo é exibido, mostrando o R² e o RMSE de cada modelo trabalhado no projeto.
+O objetivo secundário deste projeto é verificar o desempenho dos algoritmos, em especial aqueles baseados em árvores, frente à dados codificados pelos métodos CatBoostEncoder e OneHotEncoder. Dessa forma, a etapa de análise exploratória não possui volume relevante de insights.
+
+O projeto consiste em três macro-etapas:
+
+* Análise exploratória dos dados, mais simples e com menos insights;
+* Pré processamento dos dados com split em dados de treino e teste, codificação de variáveis categóricas utilizando CatBoostEncoder e OneHotEncoder, além da padronização e normalizção dos dados;
+* Modelagem de máquinas preditivas, com análise de desempenho do modelo testado com validação cruzada, seleção do modelo mais promissr e tunagem de hiperparâmetros para treinamento e teste de um modelo final.
+
+Foram escolhidos os seguintes algoritmos para a modelagem da máquina preditiva:
+* Regressão Linear
+* Random Forest
+* XGBoost
+
+As métricas principais para avaliação do desempenho dos modelos são o RMSE (raiz do erro médio quadrático) e o Coeficiente de Determinação (R2)
+
 
 Enjoy!
